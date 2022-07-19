@@ -1,0 +1,104 @@
+@media screen and (max-width:1348px) {}
+
+
+/* Laptopn screen  */
+@media only screen and (max-width: 1366px) and (min-width: 992px) {
+
+    .heading_1 {
+        font-size: 30px !important;
+    }
+
+    .heading_2 {
+        font-size: 26px !important;
+    }
+
+    .heading_3 {
+        font-size: 14px !important;
+    }
+
+    .heading_4 {
+        font-size: 18px !important;
+    }
+
+    h5.custom_heading {
+        font-size: 20px !important;
+
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    a {
+        font-size: 14px !important;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:992px) {
+
+
+    .gap {
+        height: 30px;
+    }
+
+    .heading_1 {
+        font-size: 24px !important;
+    }
+
+    .heading_2 {
+        font-size: 20px !important;
+    }
+
+    .heading_3 {
+        font-size: 12px !important;
+    }
+
+    .heading_4 {
+        font-size: 16px !important;
+    }
+
+    h5.custom_heading {
+        font-size: 16px !important;
+
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    a {
+        font-size: 12px !important;
+    }
+
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+
+
+}
+
+@media screen and (max-width:575px) {
+
+
+
+
+}
+
+
+@media screen and (max-width:425px) {
+
+
+
+
+}

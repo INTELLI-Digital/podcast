@@ -1,0 +1,67 @@
+@import url('./common.css');
+
+
+/* Css for hero section has started  */
+#hero{
+    min-height: 600px;
+  }
+  .hero_text{
+    max-width: 1122px;
+  }
+  .hero_text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    /* or 150% */
+  
+    text-align: center;
+    letter-spacing: 0.06em;
+  
+    color: #000000;
+  
+  }
+  
+  .text1, .text2{
+    position: relative;
+  }
+  .text1::after, .text2::after{
+    content: '';
+    position: absolute;
+    height: 22px;
+    width: 100%;
+    left: 0px;
+    bottom: 15px;
+    z-index: -1;
+    background-color: var(--first-color);
+  }
+  
+  .text2::after{
+    background-color:var(--second-color);
+  }
+  
+  .hero_text p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+        /* identical to box height, or 26px */
+    
+        text-align: center;
+    
+        /* Davys Grey */
+    
+        color: #4D4D4D;
+  }
+
+#hero img.line{
+    right: -250px;
+    bottom: -150px;
+}
+
+#hero img.circle{
+    left: -20px;
+    bottom: 80px;
+}

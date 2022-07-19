@@ -1,0 +1,209 @@
+/* Presetup project started  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none !important;
+}
+ul{
+  padding: 0px;
+}
+
+
+:root {
+  --first-color: #FF6C6C;
+  --second-color:#5F5FFF;
+  --third-color:#FFD049;
+
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 92% !important;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+  border: 1px solid var(--first-color) !important;
+}
+.btn{
+  border: none !important;
+  border-radius: 0px !important;
+  transition: 1s;
+}
+.btn:focus{
+  display: none;
+}
+.btn:hover{
+  opacity: .8;
+}
+
+.first_color{
+  background-color: var(--first-color) !important;
+}
+
+.second_color{
+  background-color: var(--second-color) !important;
+}
+
+.third_color{
+  background-color: var(--third-color) !important;
+}
+
+
+
+.text_first_color{
+  color: var(--first-color) !important;
+}
+
+.text_second_color{
+  color: var(--second-color) !important;
+}
+
+.text_third_color{
+  color: var(--third-color) !important;
+}
+
+
+
+
+
+.dropdown-toggle::after, .dropdown-toggle::before{
+  display: none !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  background-color: var(--first-color) !important;
+}
+.dropdown-item{
+  transition: .5s;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: rgb(30, 33, 37);
+  background-color: var(--first-color) !important;
+}
+
+
+input{
+  accent-color: var(--first-color);
+}
+
+.form-control:focus {
+  border-color: var(--first-color);
+  box-shadow: none;
+}
+
+.gap_32{
+  height: 32px;
+}
+.gap_64{
+  height: 64px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+#page_content{
+  height: 100vh;
+}
+
+/* Navbar code started from here  */
+#navbar .navbar-light{
+  min-height: 80px;
+}
+#navbar .nav-item{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--dark-color);
+}
+#navbar .badge{
+  background-color:var(--first-color);
+  font-weight: 300;
+  margin-top: -2px;
+}
+#navbar .dropdown-menu{
+  box-shadow: 0px 4px 34px rgb(0 0 0 / 10%);
+  border: none;
+}
+#navbar .arrow {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  background: white;
+  top: -5px;
+  right: 130px;
+  box-shadow: 0px 4px 34px rgb(0 0 0 / 10%);
+  z-index: -1;
+}
+
+#navbar .dropdown-menu {
+  display:unset;
+  box-shadow: 0px 4px 34px rgb(0 0 0 / 10%);
+  border: none;
+  transform: translateY(40%);
+  transition: 1s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.dropdown-menu.show {
+  transform: translateY(0%) !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+/* Presetup project ended  */
+
+.them_btn{
+  position: relative;
+  padding: 10px 12px;
+  width: fit-content;
+  text-decoration: none;
+  border: 1px solid black;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  z-index: 2;
+  /* identical to box height */
+
+}
+
+.them_btn:after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: -4px;
+  top: 4px;
+  z-index: -1;
+  transition: .5s;
+}
+.them_btn:hover::after{
+  left: 0px;
+  top: 0px;
+}
+
+.red_btn::after{
+  background-color: var(--first-color);
+}
+
+.blue_btn::after{
+  background-color: var(--second-color);
+}
+
+.yellow_btn::after{
+  background-color: var(--third-color);
+}
+
+
+
+
+
