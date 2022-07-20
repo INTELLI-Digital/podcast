@@ -13,7 +13,10 @@ a{
 ul{
   padding: 0px;
 }
-
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0px  !important;
+  padding: 0px !important;
+}
 
 :root {
   --first-color: #FF6C6C;
@@ -66,6 +69,9 @@ ul{
 .text_third_color{
   color: var(--third-color) !important;
 }
+.text-brown{
+  color:#CD4631 ;
+}
 
 
 
@@ -101,6 +107,9 @@ input{
 }
 .gap_64{
   height: 64px;
+}
+ul{
+  padding-left: 1rem !important;
 }
 
 body{
@@ -160,6 +169,19 @@ body{
 }
 /* Presetup project ended  */
 
+.bordered_btn{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+  padding: 6px 12px;
+  color: #4D4D4D;
+  border: 1px solid #4D4D4D;
+  border-radius: 4px; 
+  width: fit-content;
+}
+
 .them_btn{
   position: relative;
   padding: 10px 12px;
@@ -207,3 +229,133 @@ body{
 
 
 
+/* Card stye -------------------------------------------- */
+/* ------------------------------------------------------------- */
+
+/* Card 1 */
+
+.card{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  border: 2px solid #000000 !important;
+  border-radius: 8px !important;
+}
+
+.has_shadow{
+  box-shadow: 10px 10px 0px #FFD049;
+}
+
+.card_heading{
+  border-bottom: 0.5px solid #4D4D4D;
+}
+
+.card1 .left_img {
+  height: 100%;
+}
+.card1 .left_img img{
+  object-fit: cover;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.hosters>span{
+  font-size: 12px;
+}
+
+
+
+.hosters a{
+  border: 3px solid white;
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
+}
+
+ .hosters a:nth-of-type(2){
+  margin-left: -19px;
+}
+.hosters a:nth-of-type(3){
+  margin-left: -18px;
+}
+.hosters a:nth-of-type(4){
+  margin-left: -20px;
+}
+.hosters a:nth-of-type(5){
+  margin-left: -22px;
+}
+
+
+
+/* Group card  */
+.group_card  .card:first-child{
+  padding: 60px 40px;
+}
+.group_card .card:first-child .card_heading p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.group_card .card:last-child{
+  padding: 40px 40px;
+}
+.group_card .card:last-child ul li{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.group_card .part2 h6{
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.group_card .card.popular{
+  background-color: #F7EDE8;
+}
+
+.banner1{
+  background-color: #EDF3F7;
+  padding: 60px 0px;
+}
+.banner1 h2{
+  font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 59.3px;
+line-height: 120%;
+max-width: 680px;
+width: 100%;
+}
+
+.banner_text  p{
+  font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 500;
+font-size: 22.65px;
+line-height: 160%;
+/* or 36px */
+
+text-align: center;
+}
+
+
+.banner1 .l_moving_img{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 250px;
+}
+
+.banner1 .r_moving_img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 250px;
+}
+
+
+/* Card stye ended -------------------------------------------- */
+/* ------------------------------------------------------------------ */
