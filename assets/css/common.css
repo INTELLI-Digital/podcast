@@ -73,6 +73,20 @@ h1,h2,h3,h4,h5,h6,p{
   color:#CD4631 ;
 }
 
+.red_badge{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  background-color: transparent !important;
+  border:1px solid  #CD4631;
+  color: #CD4631;
+  width: fit-content;
+  padding: 1px 8px;
+  border-radius: 5px;
+  font-weight: 600;
+}
 
 
 
@@ -123,6 +137,8 @@ body{
 /* Navbar code started from here  */
 #navbar .navbar-light{
   min-height: 80px;
+  z-index: 0;
+
 }
 #navbar .nav-item{
   font-style: normal;
@@ -193,20 +209,19 @@ body{
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  z-index: 2;
   /* identical to box height */
 
 }
 
-.them_btn:after{
+.them_btn::after{
   content: '';
   position: absolute;
   height: 100%;
   width: 100%;
   left: -4px;
   top: 4px;
-  z-index: -1;
   transition: .5s;
+  z-index: -1;
 }
 .them_btn:hover::after{
   left: 0px;
@@ -239,6 +254,7 @@ body{
   font-style: normal;
   border: 2px solid #000000 !important;
   border-radius: 8px !important;
+  z-index: 0;
 }
 
 .has_shadow{
@@ -342,20 +358,50 @@ text-align: center;
 }
 
 
-.banner1 .l_moving_img{
+.banner1 .l_moving_img {
   position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 250px;
+  left: -100px;
+  bottom: -122px;
+  width: 350px;
+  animation: float 4s ease-in-out infinite;
+}
+.banner1 .r_moving_img {
+  position: absolute;
+  right: -135px;
+  bottom: -143px;
+  width: 350px;
+  animation: float 6s ease-in-out infinite;
 }
 
-.banner1 .r_moving_img{
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-  width: 250px;
-}
 
+@keyframes float {
+	0% {
+ 		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 
 /* Card stye ended -------------------------------------------- */
 /* ------------------------------------------------------------------ */
+
+
+/* Animated banner started  */
+.animated_banner{
+  position: relative;
+}
+.animated_banner img.line{
+  right: -250px;
+  bottom: -150px;
+}
+
+.animated_banner img.circle{
+  left: -20px;
+  bottom: 80px;
+}
+
+/* Animated banner ended  */
