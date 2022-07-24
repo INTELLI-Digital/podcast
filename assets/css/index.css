@@ -62,3 +62,100 @@
     left: -20px;
     bottom: 80px;
 }
+
+
+
+/* Image card css started  */
+.img_card{
+  max-height: 416px;
+  min-height: 416px;
+  position: relative;
+  margin: 0px 17px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img_card .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(135, 135, 138, 0.25);
+  backdrop-filter: blur(1px);
+}
+.img_card img{
+  border-radius: 10px;
+}
+.card_links{
+  position: absolute;
+  right: 15px;
+  top: 20px;
+
+}
+.img_card .caption{
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+}
+.img_card h5.caption{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.08em;
+  font-feature-settings: 'liga'
+}
+
+
+/* Image_card css ended  */
+
+
+/* Css for support slider started  */
+
+#support_slider h4{
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 22.65px;
+line-height: 140%;
+/* identical to box height, or 32px */
+}
+#support_slider .support_slider_wrapper{
+  border-top: 1.5px solid #4D4D4D;
+  border-bottom: 1.5px solid #4D4D4D;
+  padding: 20px 0px;
+}
+
+/* Episods section css has started  */
+#episods .card1{
+  max-width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+#sponsor{
+  position: relative;
+}
+.star {
+  position: absolute;
+  right: 12%;
+  top: 139px;
+  transition: 3s;
+}
+
+.spring {
+  position: absolute;
+  left: 12%;
+  bottom: 0px;
+  animation: float 4s ease-in-out infinite;
+}
