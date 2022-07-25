@@ -29,6 +29,16 @@ h1,h2,h3,h4,h5,h6,p{
   color: #000000;
 
 }
+.heading_3{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36.65px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+
+}
+
 .sub_heading{
   font-family: 'Montserrat Alternates';
 font-style: normal;
@@ -58,7 +68,7 @@ letter-spacing: -0.02em;
 
 .form-control:focus{
   box-shadow: none !important;
-  border: 1px solid var(--first-color) !important;
+  border: 2px solid var(--first-color) !important;
 }
 .btn{
   border: none !important;
@@ -153,6 +163,9 @@ input{
 .gap_64{
   height: 64px;
 }
+.gap_96{
+  height: 96px;
+}
 ul{
   padding-left: 1rem !important;
 }
@@ -162,7 +175,7 @@ body{
 }
 
 #page_content{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Navbar code started from here  */
@@ -278,6 +291,63 @@ body{
 /* Card stye -------------------------------------------- */
 /* ------------------------------------------------------------- */
 
+/* Image card css started  */
+.img_card{
+  max-height: 416px;
+  min-height: 416px;
+  position: relative;
+  margin: 0px 17px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img_card .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background: rgba(135, 135, 138, 0.25);
+  backdrop-filter: blur(1px);
+}
+.img_card img{
+  border-radius: 10px;
+}
+.card_links{
+  position: absolute;
+  right: 15px;
+  top: 20px;
+
+}
+.img_card .caption{
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+}
+.img_card h5.caption{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.08em;
+  font-feature-settings: 'liga'
+}
+
+
+/* Image_card css ended  */
+
+
+
+
 /* Card 1 */
 
 .card{
@@ -291,9 +361,13 @@ body{
 .has_shadow{
   box-shadow: 10px 10px 0px #FFD049;
 }
+.has_shadow_blue{
+  box-shadow: 10px 10px 0px var(--second-color);
+}
 .has_shadow .card_heading h3{
   color: #CD4631 !important;
 }
+
 
 .card_heading{
   border-bottom: 0.5px solid #4D4D4D;
@@ -397,13 +471,11 @@ width: 100%;
 }
 
 .banner_text  p{
-  font-family: 'Montserrat Alternates';
+font-family: 'Montserrat Alternates';
 font-style: normal;
 font-weight: 500;
 font-size: 22.65px;
 line-height: 160%;
-/* or 36px */
-
 text-align: center;
 }
 
@@ -455,6 +527,25 @@ text-align: center;
 }
 
 /* Animated banner ended  */
+
+
+
+/* Css for support slider started  */
+
+#support_slider h4{
+  font-family: 'Montserrat Alternates';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.65px;
+  line-height: 140%;
+  /* identical to box height, or 32px */
+  }
+  #support_slider .support_slider_wrapper{
+    border-top: 1.5px solid #4D4D4D;
+    border-bottom: 1.5px solid #4D4D4D;
+    padding: 20px 0px;
+  }
+
 
 
 /* memberships section css has started  */
@@ -538,3 +629,89 @@ margin-bottom: 20px !important;
   border-top: 1px solid rgba(77, 77, 77, 0.2);
   padding-top: 20px;
 }
+
+/* Animate Blink  */
+.animate_blink {
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 68px;
+  text-align: center;
+  color: rgba(129, 163, 198, 1);
+  margin-bottom: 41px;
+}
+.animate_blink .ele {
+  display: inline-block;
+  margin: 0 -0.05em;
+}
+
+
+.animate_blink .ele {
+  animation: animate_blink 1s infinite alternate;
+}
+.animate_blink .ele:nth-child(1) {
+  animation-delay: 0s;
+}
+.animate_blink .ele:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.animate_blink .ele:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.animate_blink .ele:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.animate_blink .ele:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.animate_blink .ele:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.animate_blink .ele:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.animate_blink .ele:nth-child(8) {
+  animation-delay: 0.7s;
+}
+@keyframes animate_blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Animate Blink ended  */
+
+
+/* Animate Star  */
+
+
+.animate_star .ele {
+  animation: animate_star 1s infinite alternate;
+}
+.animate_star .ele:nth-child(1) {
+  animation-delay: 1s;
+}
+.animate_star .ele:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.animate_star .ele:nth-child(3) {
+  animation-delay: 2.5s;
+}
+.animate_star .ele:nth-child(4) {
+  animation-delay: 3s;
+}
+.animate_star .ele:nth-child(5) {
+  animation-delay: 4s;
+}
+
+@keyframes animate_star {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Animate Blink ended  */

@@ -1,0 +1,23 @@
+@import url('common.css');
+
+.episod_wrapper{
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+}
+.banner_card{
+    max-width: 540px;
+    width: 100%;
+    margin: auto;
+    min-height: 472px;
+    width: 100%;
+}
+.episod_wrapper .img_card_wrapper{
+    max-width: 416px;
+    width: 100%;
+    margin: auto;
+}
+
+.eps_name .badge{
+    border: 1px solid var(--first-color);
+}
