@@ -1,0 +1,41 @@
+@import url('common.css');
+.input_wrapper input{
+    max-width: 570px;
+    width: 100%;
+    margin: auto;
+    padding: 17px 60px;
+    background-image: url('../images/icon/Search.png');
+    background-position: 5%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 8px;
+
+}
+.input_wrapper input::placeholder{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    
+    
+    /* Davys Grey */
+    
+    color: #4D4D4D; 
+}
+
+.banner_moto{
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+text-align: center;
+
+/* Davys Grey */
+
+color: #4D4D4D;
+}

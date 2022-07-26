@@ -1,25 +1,4 @@
 @import url('common.css');
-#banner2 h1{
-    font-family: 'Montserrat Alternates';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 100%;
-    /* or 96px */ 
-
-    text-align: center;
-    letter-spacing: -0.04em;
-  }
-
-  .banner2_text p{
-    max-width: 766px;
-    width: 100%;
-  }
-
-  #banner2 img.circle {
-    left: -50px;
-    bottom: 0;
-}
 
 .card_group{
     max-width: 1211px;
@@ -65,37 +44,6 @@
 
 
 
-.comments_wrapper{
-  background-color: var(--third-color);
-  min-height: 366px;
-  position: relative;
-  border-radius: 10px;
-}
-.comment_slider_wrapper{
-  font-family: 'Montserrat Alternates';
-font-style: normal;
-font-weight: 700;
-font-size: 36.65px;
-line-height: 51px;
-text-align: center;
-letter-spacing: -0.02em;
-color: #000000;
-max-width: 700px;
-width: 100%;
-margin: auto;
-}
-#comments .img1{
-  position: absolute;
-  right: 5%;
-  top: -67px;
-  transition: 1s;
-}
-#comments  .spring {
-  position: absolute;
-  left: 2%;
-  bottom: 0px;
-  animation: float 4s ease-in-out infinite;
-}
 
 
 
