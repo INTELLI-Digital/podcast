@@ -23,6 +23,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
+.navbar-nav{
+  gap: 20px;
+}
 .heading_2{
   font-family: 'Montserrat Alternates';
   font-style: normal;
@@ -45,10 +48,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 .sub_heading{
   font-family: 'Montserrat Alternates';
-font-style: normal;
-font-weight: 500;
-font-size: 22.65px;
-line-height: 160%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22.65px;
+  line-height: 160%;
 }
 
 .heading_4{
@@ -355,7 +358,7 @@ color: #4A5568;
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 120%;
   letter-spacing: -0.08em;
   font-feature-settings: 'liga'
@@ -390,11 +393,15 @@ color: #4A5568;
 
 .card_heading{
   border-bottom: 0.5px solid #4D4D4D;
+  gap: 5px;
 }
-
+.card_info{
+  margin-top:10px;
+}
 .card1 .left_img {
   height: 100%;
   position: relative;
+  max-height: 350px;
 }
 .card1 .left_img img{
   object-fit: cover;
@@ -478,6 +485,9 @@ color: #4A5568;
   background-color: #EDF3F7;
   padding: 60px 0px;
   z-index: 1;
+}
+.banner1 .red_badge{
+  margin-bottom: 20px;
 }
 .banner1 h2{
   font-family: 'Montserrat Alternates';
@@ -565,6 +575,9 @@ text-align: center;
     padding: 20px 0px;
   }
 
+  .support_slider_wrapper img{
+    margin: auto;
+  }
 
 
 /* memberships section css has started  */
@@ -596,6 +609,10 @@ text-align: center;
 
 .footer_socials{
   margin-top: 18px;
+}
+.footer_link_wrapper ul {
+  margin-left: 0px;
+  padding-left: 0px;
 }
 .footer_link_wrapper ul li{
   list-style: none;
@@ -738,7 +755,7 @@ margin-bottom: 20px !important;
 
 .podcast_tab{
   max-width: 1200px;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 .podcast_tab button{
@@ -781,6 +798,7 @@ font-size: 14px;
   font-weight: 700;
   font-size: 96px;
   line-height: 100%;
+  margin: auto !important;
   /* or 96px */ 
 
   text-align: center;
@@ -831,4 +849,292 @@ margin: auto;
   left: 2%;
   bottom: 0px;
   animation: float 4s ease-in-out infinite;
+}
+
+@media screen and (max-width:1400px){
+
+
+  .animated_banner{
+    min-height: 400px !important;
+  }
+  .animated_banner h1{
+    font-size: 48px;
+    line-height: 75px;
+    max-width: 800px;
+    width: 100%;
+  }
+  .animated_banner img {
+   width: 200px;
+}
+  .animated_banner img.line {
+    right: -120px !important;
+    bottom: 0px !important;
+  }
+
+
+
+
+  .heading_2{
+    font-size: 32px;
+  }
+  .sub_heading{
+    font-size: 22px;
+  }
+  .banner1 h2{
+    font-size: 45px;
+  }
+  .banner_el_wrapper{
+    gap:50px !important;
+  }
+
+
+  .card_heading h3{
+    font-size: 20px;
+  }
+
+   .img_card {
+    min-height: 316PX;
+   }
+  .img_card h5.caption{
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width:992px){
+
+  .navbar-nav{
+    gap: 5px;
+  }
+
+  .animated_banner h1{
+    max-width: 600px !important;
+    line-height:58px !important ;
+  }
+  .animated_banner h1{
+    font-size: 40px !important;
+  }
+  .animated_banner img {
+    width: 150px;
+ }
+
+.gap_32{
+  height: 25px;
+}
+.gap_40{
+  height: 20px;
+}
+.gap_64{
+  height: 54px;
+}
+.gap_96{
+  height: 66px;
+}
+
+
+  .heading_2{
+    font-size: 28px;
+  }
+  .heading_4{
+    font-size: 18px;
+  }
+  .sub_heading{
+    font-size: 18px;
+  }
+  p{
+    font-size: 16px !important;
+  }
+
+  .banner1 .r_moving_img {
+    right: -44px;
+    bottom: -52px;
+    width: 180px;
+}
+
+
+.banner1 .l_moving_img {
+    left: -65px;
+    bottom: -56px;
+    width: 180px;
+}
+
+.banner1 h2{
+  font-size: 35px;
+}
+.banner_el_wrapper{
+  gap:30px !important;
+}
+
+.bordered_btn{
+  padding: 3px 6px;
+}
+#support_slider .support_slider_wrapper {
+  padding: 12px 0px;
+}
+.bordered_btn{
+  font-size: 10px !important;
+}
+
+.group_card .card{
+  padding: 30px 20px !important;
+}
+
+.heading_3{
+  font-size: 18px;
+}
+
+.footer_socials{
+  margin: 15px 0px;
+  justify-content: center;
+}
+#footer .col-lg-4:nth-child(2){
+  text-align: left;
+}
+
+#footer .col-lg-4{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+}
+
+@media screen and (max-width:768px){
+
+  .gap_64 {
+    height: 40px;
+}
+
+  .navbar-brand img{
+    width: 70%;
+  }
+  #banner2{
+    margin-top: -30px !important;
+  }
+  .animated_banner{
+    min-height: 500px !important;
+
+  }
+  .animated_banner h1 {
+    font-size: 26px !important;
+    line-height: 45px !important;
+
+}
+
+
+  #hero{
+    margin-top: -50px;
+  }
+  .animated_banner h1{
+    max-width: 600px !important;
+    line-height:58px  !important;
+    font-size: 36px !important;
+    margin-top: -150px !important;
+
+  }
+
+  .animated_banner img {
+    width: 150px;
+ }
+ .animated_banner img.line{
+  bottom: -62px;
+  right: -34px;
+ }
+ .animated_banner img.circle {
+  left: -20px;
+  bottom: -69px;
+}
+
+
+  .heading_2{
+    font-size: 22px;
+  }
+  .sub_heading{
+    font-size: 14px;
+  }
+  p{
+    font-size: 14px !important;
+  }
+
+
+  .banner1 .r_moving_img {
+    right: -32px;
+    bottom: -31px;
+    width: 120px;
+}
+
+.service_cards img {
+  margin: 10px 0px;
+}
+.banner1 .l_moving_img {
+  left: -48px;
+  bottom: -25px;
+  width: 120px;
+}
+
+#episods .card1 {
+  margin-bottom: 16px !important;
+}
+.banner1 h2{
+  font-size: 25px;
+}
+
+.support_slider_wrapper img{
+  width: 80px;
+}
+
+.nav{
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .nav-link.active{
+  border: 1px solid transparent !important;
+}
+.nav-tabs .nav-link.active:hover{
+  border: 1px solid transparent !important;
+}
+
+#comments .img1 {
+  width: 100px;
+}
+
+#comments .spring {
+  right: 2% !important;
+  width: 80px;
+  bottom: -64px;
+  left: unset !important;
+}
+
+.comment_slider_wrapper h1{
+  font-size: 20px;
+}
+.commenter h6{
+  font-size: 14px;
+}
+#contact input {
+  padding: 8px 10px;
+}
+
+.idea_wrapper svg{
+  width: 100px;
+}
+.idea_wrapper {
+  margin-bottom: 15px;
+}
+.nav-tabs .nav-link{
+  padding: 5px;
+  font-size: 16px;
+}
+}
+
+@media screen and (max-width:425px){
+
+
+  p{
+    font-size: 13px !important;
+  }
+  .commenter h6{
+    font-size: 11px;
+  }
 }

@@ -41,7 +41,10 @@
   max-width: 427px;
   margin: auto;
 }
-
+.idea_wrapper svg{
+  height: auto !important;
+  margin-bottom: 0px;
+}
 
 
 
@@ -85,8 +88,8 @@ line-height: 160%;
 
 #contact  .svg1{
   position: absolute;
-  top: 0px;
-  right: -100px;
+  top: -150px;
+  left: 15px;
 
 }
 
@@ -95,5 +98,29 @@ line-height: 160%;
   left: -250px;
   bottom: 0px;
   animation: float 7s ease-in-out infinite;
+
+}
+
+
+@media screen and (max-width:992px){
+  .card3 .card_details p{
+    font-size: 14px !important;
+  }
+  .card3 .card_heading h3{
+    font-size: 16px;
+  }
+  .card3 .social_img img{
+    width: 18px !important;
+  }
+  .card3 .socials span{
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width:768px){
+  .card3 .card_bottom{
+    padding-bottom: 25px;
+  }
+
 
 }

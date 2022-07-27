@@ -60,7 +60,7 @@
 
 #hero img.circle{
     left: -20px;
-    bottom: 80px;
+    bottom: 0px;
 }
 
 
@@ -70,9 +70,12 @@
 
 /* Episods section css has started  */
 #episods .card1{
-  max-width: 90%;
+  max-width: 100%;
   margin: auto;
   margin-bottom: 50px;
+}
+#episods .card1:last-child{
+  margin-bottom: 0px;
 }
 
 #sponsor{
@@ -95,6 +98,7 @@
 #article_news .card2{
   max-width:570px;
   margin: auto;
+  padding-bottom: 10px !important;
 }
 
 
@@ -102,51 +106,18 @@
 
 /* Media query starting from here  */
 @media screen and (max-width:1200px){
-  #hero{
-    min-height: 400px;
-  }
-  .hero_text h1{
-    font-size: 48px;
-    line-height: 75px;
-    max-width: 800px;
-    width: 100%;
-  }
-  #hero img {
-   width: 200px;
-}
-#hero img.line {
-  right: -100px;
-  bottom: 100px;
-}
+
 }
 
 
 @media screen and (max-width:992px){
-  .hero_text h1{
-    max-width: 600px;
-    line-height:58px ;
-  }
-  .hero_text h1{
-    font-size: 40px;
-  }
-  #hero img {
-    width: 150px;
- }
+
 
 }
 
 
 
 @media screen and (max-width:768px){
-  .hero_text h1{
-    max-width: 600px;
-    line-height:58px ;
-  }
-  .hero_text h1{
-    font-size: 36px;
-  }
-  #hero img {
-    width: 150px;
- }
 
 }
+
