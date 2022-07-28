@@ -681,6 +681,13 @@ margin-bottom: 30px !important;
   width: 26.5%;
   margin: 0px 10px;
 }
+
+.footer_socials svg path{
+  transition: .5s;
+}
+.footer_socials svg:hover path{
+  fill: var(--first-color);
+}
 .app_market {
   margin-top: 60px;
 }

@@ -1256,7 +1256,7 @@
     $(".listen").click(function(){
       $text = $(".btn_text").text();
       if($text == "LISTEN "){
-        $text = $(".btn_text").text("STOP ");
+        $text = $(".btn_text").text("PAUSE ");
         $(".play").attr("src","../assets/images/icon/play.gif");
         $(this).find("img").attr("src", "../assets/images/icon/pause_icon.png");
         audio.play();
