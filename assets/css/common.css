@@ -1,10 +1,8 @@
 /* Presetup project started  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('../plugins/aos/aos-2.3.1.css');
 
-@media screen and (min-width:992px){
-  @import url('../plugins/aos/aos-2.3.1.css');
-}
 
 
 *{
@@ -199,6 +197,7 @@ body{
 
 #page_content{
   min-height: 100vh;
+  overflow-x: hidden;
 }
 .first_content{
   margin-top: 80px;
@@ -961,7 +960,7 @@ margin: auto;
     font-size: 40px !important;
   }
   .animated_banner img {
-    width: 150px;
+    width: 150px !important;
  }
 
 .gap_32{
@@ -1118,7 +1117,7 @@ margin: auto;
   }
 
   .animated_banner img {
-    width: 150px;
+    width: 150px !important;
  }
  .animated_banner img.line{
   bottom: -62px;
