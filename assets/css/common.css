@@ -30,15 +30,65 @@ h1,h2,h3,h4,h5,h6,p{
 .navbar-nav{
   gap: 20px;
 }
+.bordered_btn{
+  transition: .5s;
+}
+.bordered_btn:hover{
+  border: 1px solid var(--first-color);
+  background-color: var(--first-color);
+  color:white
+}
+
 .navbar-light .navbar-toggler{
   border: none !important;
 }
+
 .navbar-light .navbar-toggler:focus{
   box-shadow: none !important;
 }
 #navbar .navbar-light {
-  min-height: unset !important;
   z-index: 999;
+  transition: .5s;
+}
+
+
+@media screen and (max-width:1240px){
+
+  .navbar-expand-lg .navbar-nav {
+    padding-left: 0px !important;
+}
+
+
+.navbar-brand{
+  margin-right: 0px !important;
+}
+
+  .navbar-brand img{
+    max-width: 70% !important;
+  }
+
+  #navbar .nav-link {
+    font-size: 14px !important;
+}
+.right_side_nav  a:first-child{
+  font-size: 14px !important;
+  margin-right: 8px !important;
+  margin-left: 15px;
+}
+.right_side_nav  .them_btn{
+  font-size: 12px !important;
+}
+.navbar-nav {
+  gap: 5px;
+}
+}
+
+
+@media screen and (min-width:768px){
+  nav.scrolled {
+    background-color: #f8f9fa !important;
+    box-shadow: 0px 15px 20px rgba(77, 77, 77, 0.1);
+  }
 }
 .heading_2{
   font-family: 'Montserrat Alternates';
@@ -231,6 +281,7 @@ color: #4A5568;
   background-color:var(--first-color);
   font-weight: 300;
   margin-top: -2px;
+  font-size: 9px;
 }
   #navbar .dropdown-menu{
     box-shadow: 0px 4px 34px rgb(0 0 0 / 10%);
@@ -251,6 +302,8 @@ color: #4A5568;
 }
 
 @media screen and (min-width:992px){
+
+
   #navbar .dropdown-menu {
     display:unset;
     box-shadow: 0px 4px 34px rgb(0 0 0 / 10%);
@@ -950,6 +1003,12 @@ margin: auto;
   .navbar-nav{
     gap: 5px;
   }
+  .bg-light{
+    background-color: #f8f9fa;
+  }
+  .right_side_nav  a:first-child{
+    margin-left: 0px;
+  }
 
   .animated_banner h1{
     max-width: 600px !important;
@@ -1051,7 +1110,7 @@ margin: auto;
 .right_side_nav {
   display: flex;
   flex-direction: column;
-  margin-left: 18px;
+  margin-left: 0px;
   gap: 9px;
 }
 .right_side_nav a:first-child{
@@ -1077,12 +1136,22 @@ margin: auto;
   display: none;
 }
 
+#footer{
+  margin-top: 30px;
+}
+.footer_add img {
+  width: 12.5%;
+  margin: 0px 10px;
+}
+.footer_logo {
+  margin-bottom: 20px;
+}
 }
 
 @media screen and (max-width:768px){
 
   .gap_64 {
-    height: 40px;
+    height: 20px;
 }
 
   .navbar-brand img{
@@ -1105,7 +1174,7 @@ margin: auto;
 }
 
   #hero{
-    margin-top: 12px;
+    margin-top: 70px;
   }
   .animated_banner h1{
     max-width: 600px !important;
@@ -1208,6 +1277,9 @@ margin: auto;
 .nav-tabs .nav-link{
   padding: 5px;
   font-size: 16px;
+}
+.footer_add img {
+  width: 25.5%;
 }
 }
 
