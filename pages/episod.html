@@ -1255,13 +1255,13 @@
     const audio = new Audio("../assets/audio/test.mp3" );
     $(".listen").click(function(){
       $text = $(".btn_text").text();
-      if($text == "LISTEN NOW"){
+      if($text == "LISTEN "){
         $text = $(".btn_text").text("STOP ");
         $(".play").attr("src","../assets/images/icon/play.gif");
         $(this).find("img").attr("src", "../assets/images/icon/pause_icon.png");
         audio.play();
       }else{
-        $text = $(".btn_text").text("LISTEN NOW");
+        $text = $(".btn_text").text("LISTEN ");
         $(".play").attr("src","../assets/images/icon/pause.png");
         $(this).find("img").attr("src", "../assets/images/icon/play_icon.png");
 
