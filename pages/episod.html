@@ -163,7 +163,7 @@
                                   <button style="background-color:transparent;" class="them_btn  blue_btn d-flex align-items-center listen" href="#">
                                     <img src="../assets/images/icon/play_icon.png" alt="">
 
-                                      <span class="text-white btn_text">LISTEN NOW</span> <span class="text_first_color"> ( 46 min )</span>
+                                      <span class="text-white btn_text">LISTEN </span> <span class="text_first_color ms-1"> ( 46 min )</span>
                                       
                                   </button>
                                 </div>
@@ -292,7 +292,7 @@
                       </div>
                     </div>
                     <div class="col-12 col-md-6">
-                      <div class="card card1     p-1 p-md-3" data-aos="wake-up" data-aos-duration="1200">
+                      <div class="card card1     p-1 p-md-3 mb-4" data-aos="wake-up" data-aos-duration="1200">
                         <div class="card_body ">
                             <div class="row">
                               <div class="col-12 col-lg-4">
@@ -1256,7 +1256,7 @@
     $(".listen").click(function(){
       $text = $(".btn_text").text();
       if($text == "LISTEN NOW"){
-        $text = $(".btn_text").text("STOP NOW ");
+        $text = $(".btn_text").text("STOP ");
         $(".play").attr("src","../assets/images/icon/play.gif");
         $(this).find("img").attr("src", "../assets/images/icon/pause_icon.png");
         audio.play();
