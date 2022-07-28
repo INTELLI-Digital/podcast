@@ -83,21 +83,26 @@
   .loading {
     font-size: 40px;
   }
-  .loading img{
-    width: 50px;
+  .loading span:first-child{
+    width: 50px !important;
   }
   }
-  @media screen and (max-width: 768px){
-    .loading {
-        font-size: 20px !important;
-    }
-  }
+
 
 
 @media screen and (max-width: 992px){
     .loading {
         font-size: 30px;
     }
+
+}
+
+@media screen and (max-width: 768px){
+  .loading {
+      font-size: 30px !important ;
+  }
+
+
 }
 
 /* Code for preloader ended  */
