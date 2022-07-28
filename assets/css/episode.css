@@ -18,3 +18,7 @@
     margin: auto;
 }
 
+.episod_wrapper .card{
+    box-shadow: none;
+}
+

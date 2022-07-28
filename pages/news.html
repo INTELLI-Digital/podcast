@@ -162,7 +162,7 @@
                 <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-home-tab">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                          <div class="card card2  p-2  p-md-3 mb-3 ">
+                          <div class="card card2  p-2  p-md-3 mb-3 " data-aos="left-skew" data-aos-duration="1200">
                             <div class="card_body ">
                                 <div class="row">
                                   <div class="col-12 ">
@@ -196,7 +196,7 @@
                   
                         </div>
                         <div class="col-12 col-md-6">
-                          <div class="card card2   p-2 p-md-3 mb-3 ">
+                          <div class="card card2   p-2 p-md-3 mb-3 " data-aos="right-skew" data-aos-duration="1200">
                             <div class="card_body ">
                                 <div class="row">
                                   <div class="col-12 ">
@@ -798,9 +798,11 @@
   <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="../assets/plugins/twin_max/twin_max.js" type="text/javascript"></script>
   <script src="../assets/js/preloader.js" type="text/javascript"></script>
+  <script src="../assets/plugins/aos/aos-2.3.1.js"></script>
   <script src="../assets/js/common.js" type="text/javascript"></script>
 
   <script>
+    AOS.init();
     var rect = $('#banner2')[0].getBoundingClientRect();
     var mouse = {
       x: 0,

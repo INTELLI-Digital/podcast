@@ -44,6 +44,7 @@
 .idea_wrapper svg{
   height: auto !important;
   margin-bottom: 0px;
+  animation: float 4s ease-in-out infinite;
 }
 
 
@@ -121,6 +122,8 @@ line-height: 160%;
   .card3 .card_bottom{
     padding-bottom: 25px;
   }
-
+  #contact input {
+    padding: 8px 10px;
+}
 
 }

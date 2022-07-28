@@ -121,14 +121,14 @@
             <img  class="circle img-fluid  position-absolute" src="../assets/images//banner/banner_spring.png" alt="">
         </section>
 
-        <div class="gap_64"></div>
-        <div class="gap_64"></div>
+        <div class="gap_64 d-none d-md-block"></div>
+        <div class="gap_64 d-none d-md-block"></div>
 
         <section class="card_group">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-4 mb-3 mb-md-0 ">
-                        <div class="card card4  d-flex flex-column gap-4">
+                        <div class="card card4  d-flex flex-column gap-4" data-aos="fade-right" data-aos-duration="1200">
                             <div class="container">
                                 <div class="card4_heading text-center mb-4">
                                     <h2 class="fw-bold"><span class="text_second_color">76</span> <span class="text-dark">K</span></h2>
@@ -141,7 +141,7 @@
                        </div>
                     </div>
                     <div class="col-12 col-md-4 mb-3 mb-md-0 ">
-                        <div class="card card4  d-flex flex-column gap-4">
+                        <div class="card card4  d-flex flex-column gap-4" >
                             <div class="container">
                                 <div class="card4_heading text-center mb-4">
                                     <h2 class="fw-bold"><span class="text_first_color">128</span> <span class="text-dark">K</span></h2>
@@ -154,7 +154,7 @@
                        </div>
                     </div>
                     <div class="col-12 col-md-4 mb-3 mb-md-0">
-                        <div class="card card4  d-flex flex-column gap-4">
+                        <div class="card card4  d-flex flex-column gap-4" data-aos="fade-left" data-aos-duration="1200">
                             <div class="container">
                                 <div class="card4_heading text-center mb-4">
                                     <h2 class="fw-bold"><span class="text_third_color">76</span> <span class="text-dark">K</span></h2>
@@ -251,7 +251,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-12 col-md-6 mb-3 mb-md-0">
-                  <div class="card card3   p-1 p-md-3">
+                  <div class="card card3   p-1 p-md-3" data-aos="fade-right" data-aos-duration="1200">
                     <div class="card_body ">
                         <div class="row">
                           <div class="col-6">
@@ -295,7 +295,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-md-6 mb-3 mb-md-0">
-                  <div class="card card3   p-1 p-md-3">
+                  <div class="card card3   p-1 p-md-3" data-aos="fade-left" data-aos-duration="1200">
                     <div class="card_body ">
                         <div class="row">
                           <div class="col-6">
@@ -635,9 +635,13 @@
   <script src="../assets/js/preloader.js" type="text/javascript"></script>
   <script src="../assets/plugins/twin_max/twin_max.js"></script>
   <script src="../assets/plugins/slick/slick.1.8.1.js"></script>
+  <script src="../assets/plugins/aos/aos-2.3.1.js"></script>
   <script src="../assets/plugins/chorki/chorki.js" type="text/javascript"></script>
   <script src="../assets/js/common.js" type="text/javascript"></script>
 
+  <script>
+    AOS.init();
+  </script>
 
   <script>
     var rect = $('#banner2')[0].getBoundingClientRect();
