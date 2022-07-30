@@ -999,10 +999,10 @@ margin: auto;
 }
 
 @media screen and (max-width:992px){
-
   .navbar-nav{
     gap: 5px;
   }
+
   .bg-light{
     background-color: #f8f9fa;
   }
